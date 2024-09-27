@@ -1,0 +1,75 @@
+.checkout-form {
+    margin: 0.5rem 0 0.5rem 0;
+    padding: 0.6rem;
+    border: 1px solid #8a2b06;
+    border-radius: 8px;
+    background-color: #fefaf5;
+    max-height: 26rem;
+    overflow: auto;
+  }
+  
+  .checkout-form div {
+    margin-bottom: 0.8rem;
+  }
+  
+  .checkout-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #4f1e01;
+  }
+  
+  .checkout-form input {
+    width: 100%;
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 0.7rem;
+  }
+  
+  .invalid input{
+    border: 2px solid red;
+  background-color: #fbdada;
+  }
+  .invalid p{
+    color: red;
+  }
+  .checkout-form input:focus {
+    outline: none;
+    border-color: #8a2b06;
+  }
+  
+  .checkout-form .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .checkout-form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    color: white;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .checkout-form button:hover,
+  .checkout-form button:active {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+  }
+  
+  /* Additional styles for the close button */
+  .checkout-form .button--alt {
+    background-color: transparent;
+    color: #8a2b06;
+    border: 1px solid #8a2b06;
+  }
+  
+  .checkout-form .button--alt:hover,
+  .checkout-form .button--alt:active {
+    background-color: #f5e1dc;
+  }
+  
